@@ -1,0 +1,19 @@
+{
+  "name": "unit_test_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon spec/support/addSpec.js",
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^4.1.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "jasmine-node": "^3.0.0"
+  }
+}

@@ -82,6 +82,7 @@ const ship_from: IShipFrom = {
   address_residential_indicator: "no",
 };
 
+// single responcibility
 const display = (data: any): void => {
   console.log(data);
 };
