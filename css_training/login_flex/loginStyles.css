@@ -20,8 +20,8 @@ span {
 span{
     font-size: 10px;
 }
-p{
-    font-size: 14px;
+p, label{
+    font-size: 12px;
 }
 
 .main-section {
@@ -35,8 +35,8 @@ p{
 }
 
 .login-container {
-  width: 28vw;
-  height: 38vh;
+  width: 27vw;
+  height: auto;
   background-color: white;
   padding: 30px;
   border-radius: 3%;
@@ -48,7 +48,7 @@ form {
 }
 
 .line {
-  border-top: 1px solid black;
+  border-top: 1px solid gainsboro;
 }
 
 label {
@@ -56,15 +56,33 @@ label {
 }
 
 input {
-  padding: 8px;
-  margin: 0 3px 0 0;
+  padding: 7px 10px;
+  margin: 0 3px 7px 0;
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+}
+
+input:focus{
+  outline: none !important;
+  border: 1px solid rgb(150, 150, 150);
+}
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance:none;
+  background-color: #fff;
+  margin: 0;
+  padding: 6px;
+}
+
+input[type="checkbox"]:checked{
+  background-color: rgb(150, 150, 150) !important;
 }
 
 .submit-btn {
   width: 80px;
-  padding: 8px 12px;
+  padding: 8px 10px;
   margin-top: 8px;
-  background-color: royalblue;
+  background-color: rgb(104, 137, 236);
   color: white;
   border-style: none;
   border-radius: 5px;
